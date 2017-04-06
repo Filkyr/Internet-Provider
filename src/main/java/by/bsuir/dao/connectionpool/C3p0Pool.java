@@ -18,7 +18,6 @@ public class C3p0Pool implements ConnectionPool {
     private static final String DB_URL = "db.url";
     private static final String DB_USER = "db.user";
     private static final String DB_PASSWORD = "db.password";
-    private static final String DB_POOL_SIZE = "db.poolsize";
 
     private static final ConnectionPool instance = new C3p0Pool();
     private static ReentrantLock lock = new ReentrantLock();
