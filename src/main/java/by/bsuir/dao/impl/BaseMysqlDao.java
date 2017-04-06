@@ -21,7 +21,7 @@ import java.util.List;
 @Log4j
 public abstract class BaseMysqlDao {
     @Autowired
-    private DataSource dataSource = (DataSource) TransactionManagerImpl.getInstance();
+    private DataSource dataSource;
 
     public final void performUpdatable(String query, DaoConsumer<PreparedStatement> setter) throws DAOException {
         try {
