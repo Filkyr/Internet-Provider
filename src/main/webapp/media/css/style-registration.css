@@ -1,0 +1,41 @@
+body {
+    background: url(../../media/images/background.png);
+}
+#form-container {
+    margin: 100px auto 0;
+    width: 500px;
+    height: auto;
+    position: relative;
+    z-index: auto;
+    display: block;
+    opacity: 1;
+    transform: none;
+    top: initial;
+    left: initial;
+}
+#form-container h1:before, #content h1:after {
+    width: 32%;
+}
+#registration-form input[type="text"]:focus, select:focus {
+    -webkit-box-shadow: 0 0 2px #54b1d5 inset, 0 0 5px #54b1d5;
+    -moz-box-shadow: 0 0 2px #54b1d5 inset, 0 0 5px #54b1d5;
+    -ms-box-shadow: 0 0 2px #54b1d5 inset, 0 0 5px #54b1d5;
+    -o-box-shadow: 0 0 2px #54b1d5 inset, 0 0 5px #54b1d5;
+    box-shadow: 0 0 4px #54b1d5 inset, 0 0 5px #54b1d5;
+    background-color: #fff;
+    border: 1px solid #54b1d5;
+    outline: none;
+}
+#registration-form > div  {
+     position: relative;
+}
+.glyphicon {
+    font-size: 20px;
+    top: 14px;
+    left: 11px;
+    color: #7a7a7a;
+    position: absolute;
+}
+#registration-form input[type="submit"] {
+    float: right;
+}

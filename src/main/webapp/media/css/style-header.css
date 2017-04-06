@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+body {
+    background: #f5f5f5;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.7;
+    font-family: 'Roboto slab', sans-serif;
+}
+a, .btn {
+    transition: all 0.3s;
+}
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.navbar-default .navbar-text {
+    margin-bottom: 0;
+    color: #fff;
+}
+.navbar-default {
+    background-color: #2a2a2a;
+    font-weight: 200;
+    border: none;
+    border-bottom: 2px solid #101010;
+}
+.navbar-brand {
+    padding: 0;
+}
+.navbar-brand>img {
+    padding: 0 15px;
+    transition: all 0.3s;
+}
+.navbar-brand>img:focus, .navbar-brand>img:hover {
+    padding: 0 15px;
+    background-color: #473150;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    background-color: #473150;
+    color: #fff;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background-color: #473150;
+    color: #fff;
+    cursor: default;
+}
+.navbar-nav>li>.dropdown-menu {
+    margin-top: 2px;
+}
+.btn-custom {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+}
+.btn-custom:hover, .btn-custom:active, .btn-custom:focus{
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
+}
+footer {
+    padding: 10px 0;
+    border-top: 2px solid #3a3a3a;
+    color: #999;
+    font-size: 12px;
+    background-color: #1F1F1F;
+}
+footer p {
+    margin: 10px 0;
+}
+.copyright a {
+    color: #dadada;
+}
+.copyright a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.custom-dropdown > li > a {
+    padding: 3px 20px 3px 30px;
+}
+/*.sign-out:before {
+    content: "\e163";
+    position: relative;
+    display: inline-block;
+    top: 1px;
+    font-family: "Glyphicons Halflings";
+    font-style: normal;
+    line-height: 1;
+    padding-right: 7px;
+    margin-left: -20px;
+}*/
+.complete {
+    color: #408d38;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.error-message {
+    text-align: left;
+    color: rgba(202, 42, 40, 0.75);
+    margin: 1px 0 0;
+    display: block;
+}
+.error {
+    color: #e83740;
+}

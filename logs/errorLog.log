@@ -1,0 +1,97 @@
+01.11.2016 16:43:55 ERROR main UserServiceImpl:getByLogin:33 - com.epam.provider.mysqlProviderDao.exception.DAOException: connection pool initialization fail
+01.11.2016 16:43:59 ERROR main UserServiceImpl:getByLogin:33 - com.epam.provider.mysqlProviderDao.exception.DAOException: connection pool initialization fail
+05.11.2016 17:41:37 ERROR main Foo:main:22 - Hi
+05.11.2016 17:41:37 FATAL main Foo:main:23 - Hi
+07.11.2016 16:41:17 ERROR main DAO:insert:104 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'email' for key 'idx_login'
+11.11.2016 14:27:15 ERROR main DAO:delete:143 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`provider`.`accounts`, CONSTRAINT `fk_accounts_tariffs` FOREIGN KEY (`tariff_id`) REFERENCES `tariffs` (`id`) ON UPDATE CASCADE)
+13.11.2016 20:31:55 ERROR main DAO:update:181 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'rerere' for key 'idx_login'
+16.11.2016 00:11:12 ERROR main ProviderDAO:selectAll:61 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'ui.mobile_number' in 'field list'
+16.11.2016 17:51:21 ERROR main ProviderDAO:insert:126 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`provider`.`user_informations`, CONSTRAINT `fk_user_informations_accounts` FOREIGN KEY (`user_id`) REFERENCES `accounts` (`user_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+16.11.2016 18:14:01 ERROR main ProviderDAO:insert:103 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`provider`.`payments`, CONSTRAINT `fk_payments_accounts` FOREIGN KEY (`user_id`) REFERENCES `accounts` (`user_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+16.11.2016 20:47:23 ERROR main MysqlProviderDAO:insert:75 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'PRIMARY'
+16.11.2016 20:47:23 ERROR main AccountServiceImpl:createUserAccount:52 - DAOException: DAOException: Can't insert account
+19.11.2016 17:16:44 ERROR main MysqlProviderDAO:selectByName:93 - java.sql.SQLException: No value specified for parameter 2
+20.11.2016 01:33:23 ERROR main TariffServiceImpl:getAllTariffView:55 - DAOException: DAOException: Connection pool initialization fail
+22.11.2016 03:03:11 ERROR main MysqlProviderDAO:selectTariffInfo:185 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'id' in 'where clause'
+22.11.2016 03:04:03 ERROR main MysqlProviderDAO:selectTariffInfo:185 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'tariffId' in 'where clause'
+23.11.2016 19:56:41 ERROR main MysqlProviderDAO:insert:75 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '8' for key 'PRIMARY'
+23.11.2016 19:56:41 ERROR main AccountServiceImpl:createUserAccount:65 - DAOException: DAOException: Can't insert account
+23.11.2016 19:57:34 ERROR main AccountServiceImpl:isHaveAccount:79 - DAOException: java.lang.NullPointerException
+23.11.2016 20:00:14 ERROR main AccountServiceImpl:createUserAccount:66 - DAOException: DAOException: It's me)
+26.11.2016 20:32:45 ERROR main MysqlProviderDAO:selectByKey:76 - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+26.11.2016 20:32:45 ERROR main TransactionManagerImpl:doInTransaction:41 - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+26.11.2016 20:32:45 ERROR main MysqlProviderDAO:selectAll:50 - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+26.11.2016 20:32:45 ERROR main TransactionManagerImpl:doInTransaction:41 - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+26.11.2016 20:32:45 ERROR main MysqlProviderDAO:selectAll:50 - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+26.11.2016 20:32:45 ERROR main TransactionManagerImpl:doInTransaction:41 - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+26.11.2016 20:32:45 ERROR main MySQLPoolInit:destroy:29 - ConnectionPoolException: Try to dispose not init pool
+26.11.2016 20:35:08 ERROR main MysqlProviderDAO:selectByKey:76 - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+26.11.2016 20:35:08 ERROR main TransactionManagerImpl:doInTransaction:41 - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+26.11.2016 20:35:08 ERROR main MysqlProviderDAO:selectAll:50 - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+26.11.2016 20:35:08 ERROR main TransactionManagerImpl:doInTransaction:41 - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+26.11.2016 20:35:08 ERROR main MysqlProviderDAO:selectAll:50 - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+26.11.2016 20:35:08 ERROR main TransactionManagerImpl:doInTransaction:41 - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+26.11.2016 20:35:08 ERROR main MySQLPoolInit:destroy:29 - ConnectionPoolException: Try to dispose not init pool
+26.11.2016 20:39:46 ERROR main MysqlProviderDAO:insert:103 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'admin' for key 'idx_login'
+26.11.2016 20:41:37 ERROR main MysqlProviderDAO:insert:103 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'admin' for key 'idx_login'
+26.11.2016 21:12:43 ERROR main MysqlProviderDAO:insert:130 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'admin' for key 'idx_login'
+27.11.2016 01:33:01 ERROR main MysqlProviderDAO:selectPaymentById:114 - java.sql.SQLException: Parameter index out of range (1 > number of parameters, which is 0).
+27.11.2016 01:56:03 ERROR main TrafficServiceImpl:insertPayment:45 - DAOException: ServiceException: Can't insert, because of today this user payed
+28.11.2016 23:33:13 ERROR main MysqlProviderDAO:selectAccountById:96 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' `tar`.`language` = 'ru_RU'' at line 1
+29.11.2016 13:06:43 ERROR main MySQLPoolInit:init:18 - ConnectionPoolException: Connection pool initialization fail
+29.11.2016 13:06:43 ERROR main MySQLPoolInit:destroy:29 - ConnectionPoolException: Try to dispose not init pool
+29.11.2016 14:02:27 ERROR main MysqlProviderDAO:selectByKey:125 - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+29.11.2016 14:02:27 ERROR main TransactionManagerImpl:doInTransaction:41 - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+29.11.2016 14:02:27 ERROR main MysqlProviderDAO:selectAccountById:96 - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+29.11.2016 14:02:27 ERROR main TransactionManagerImpl:doInTransaction:41 - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+29.11.2016 14:02:27 ERROR main MysqlProviderDAO:selectAccountCount:147 - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+29.11.2016 14:02:27 ERROR main TransactionManagerImpl:doInTransaction:41 - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+29.11.2016 14:02:27 ERROR main MySQLPoolInit:destroy:29 - ConnectionPoolException: Try to dispose not init pool
+29.11.2016 14:03:14 ERROR main MysqlProviderDAO:insert:130 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'email' for key 'idx_login'
+29.11.2016 14:33:42 ERROR main MySQLPoolInit:destroy:29 - ConnectionPoolException: Try to dispose not init pool
+29.11.2016 22:12:47 ERROR main MysqlProviderDAO:insert:130 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'admin' for key 'idx_login'
+01.12.2016 11:57:55 ERROR main MySQLPoolInit:init:18 - ConnectionPoolException: Connection pool initialization fail
+01.12.2016 11:57:55 ERROR main MySQLPoolInit:destroy:29 - ConnectionPoolException: Try to dispose not init pool
+01.12.2016 11:59:57 ERROR main MysqlProviderDAO:insert:154 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'admin' for key 'idx_login'
+01.12.2016 12:01:23 ERROR main MysqlProviderDAO:insert:154 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'admin' for key 'idx_login'
+01.12.2016 12:01:42 ERROR main MysqlProviderDAO:insert:154 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'admin' for key 'idx_login'
+01.12.2016 12:48:33 ERROR main MysqlProviderDAO:insert:219 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'Рекорд 10' for key 'name_idx'
+01.12.2016 13:12:38 ERROR main MysqlProviderDAO:insert:100 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '2-2016-12-01 13:12:38' for key 'PRIMARY'
+08.12.2016 14:00:22 ERROR main UserDaoImpl:insert:156 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'email' for key 'idx_login'
+11.12.2016 13:09:51 ERROR main RequestDaoImpl:selectCurrentRequest:50 - java.sql.SQLException: Column Index out of range, 3 > 2. 
+12.12.2016 20:10:34 ERROR main RequestDaoImpl:selectByKey:87 - java.sql.SQLException: Parameter index out of range (1 > number of parameters, which is 0).
+12.12.2016 20:17:14 ERROR main RequestDaoImpl:selectByKey:88 - java.sql.SQLException: Parameter index out of range (1 > number of parameters, which is 0).
+13.12.2016 16:07:01 ERROR main MySQLPoolInit:destroy:29 - ConnectionPoolException: Try to dispose not init pool
+13.12.2016 16:24:28 ERROR main TrafficDaoImpl:insert:145 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '2-2016-12-13' for key 'PRIMARY'
+16.12.2016 14:08:30 ERROR main UserDaoImpl:insert:195 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'user7' for key 'idx_login'
+16.12.2016 14:08:31 ERROR main UserDaoImpl:insert:195 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'user7' for key 'idx_login'
+16.12.2016 14:08:31 ERROR main UserDaoImpl:insert:195 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'user7' for key 'idx_login'
+16.12.2016 14:08:31 ERROR main UserDaoImpl:insert:195 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'admin' for key 'idx_login'
+16.12.2016 14:10:31 ERROR main UserDaoImpl:insert:195 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'admin' for key 'idx_login'
+18.12.2016 19:34:44 ERROR main TrafficDaoImpl:insert:181 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '2-2016-12-18' for key 'PRIMARY'
+19.12.2016 22:48:51 ERROR main TariffDaoImpl:insert:302 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'Рекорд 10' for key 'name_idx'
+19.12.2016 22:50:25 ERROR main TariffDaoImpl:insert:302 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'Рекорд 10' for key 'name_idx'
+19.12.2016 22:51:19 ERROR main TrafficDaoImpl:insert:181 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '2-2016-12-19' for key 'PRIMARY'
+19.12.2016 23:04:13 ERROR main UserDaoImpl:insert:225 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'admin' for key 'idx_login'
+22.12.2016 21:50:45 ERROR main UserDaoImpl:updateUserStatus:291 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'UDATE `users` SET `is_banned` = 0 WHERE `id` = 6' at line 1
+11.01.2017 16:49:40 ERROR main MySQLPoolInit:init:25 - ConnectionPoolException: Connection pool initialization fail
+11.01.2017 16:49:40 ERROR main MySQLPoolInit:destroy:39 - ConnectionPoolException: Try to dispose not init pool
+11.01.2017 16:51:20 ERROR main MySQLPoolInit:init:25 - ConnectionPoolException: Connection pool initialization fail
+11.01.2017 16:51:20 ERROR main MySQLPoolInit:destroy:39 - ConnectionPoolException: Try to dispose not init pool
+11.01.2017 16:54:22 ERROR main MySQLPoolInit:init:25 - ConnectionPoolException: Connection pool initialization fail
+11.01.2017 16:54:22 ERROR main MySQLPoolInit:destroy:39 - ConnectionPoolException: Try to dispose not init pool
+11.01.2017 16:55:39 ERROR main MySQLPoolInit:init:25 - ConnectionPoolException: Connection pool initialization fail
+11.01.2017 16:55:39 ERROR main MySQLPoolInit:destroy:39 - ConnectionPoolException: Try to dispose not init pool
+14.01.2017 23:40:07 ERROR main RequestDaoImpl:insert:131 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '2-2016-09-10 10:10:10' for key 'PRIMARY'
+17.01.2017 14:22:35 ERROR main RequestDaoImpl:insert:132 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '2-2016-09-10 10:10:10' for key 'PRIMARY'
+22.01.2017 23:30:22 ERROR main AccountServiceImpl:isHaveAccount:77 - by.bsuir.dao.exception.DAOException: java.lang.NullPointerException
+23.01.2017 23:39:37 ERROR main BaseMysqlDao:performUpdatable:63 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '2-2016-09-10 10:10:10' for key 'PRIMARY'
+31.01.2017 13:35:44 ERROR main BaseMysqlDao:performSingleSelect:129 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?) AS `table` RIGHT OUTER JOIN categories AS `c` ON `table`.category_id = `c`.id' at line 1
+31.01.2017 15:35:48 ERROR main BaseMysqlDao:performSingleSelect:97 - java.sql.SQLException: No value specified for parameter 2
+31.01.2017 15:36:17 ERROR main BaseMysqlDao:performSingleSelect:97 - java.sql.SQLException: Before start of result set
+31.01.2017 15:39:48 ERROR main BaseMysqlDao:performSingleSelect:97 - java.sql.SQLException: Before start of result set
+31.01.2017 16:01:47 ERROR main BaseMysqlDao:performInsert:60 - java.sql.SQLException: Field 'id' doesn't have a default value
+31.01.2017 21:36:27 ERROR main Foo:main:14 - java.lang.RuntimeException
+01.02.2017 00:49:17 ERROR main MySQLPoolInit:init:18 - by.bsuir.dao.exception.ConnectionPoolException: Connection pool initialization fail
+01.02.2017 00:49:17 ERROR main MySQLPoolInit:destroy:29 - by.bsuir.dao.exception.ConnectionPoolException: Try to dispose not init pool
+01.02.2017 15:43:41 ERROR main BaseMysqlDao:performUpdatable:34 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '2-3' for key 'PRIMARY'
